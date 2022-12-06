@@ -1,0 +1,91 @@
+.welcoming{
+     font-size:40px;
+     width: 200px;
+     height: 200px;
+}
+
+.uslugi{
+  font-size:40px;
+}
+.our_service{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 10px;
+}
+body{
+  background:#2c3e50;
+}
+.urls{
+  font-family: sans-serif;
+  background: #2c3e50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+  weight: 12px;
+}
+
+div{
+  position: relative;
+  width: 1000px;
+  height: 400px;
+  background-color: #34495e;
+  border-radius: 250px;
+  font-size: 0;
+}
+a{
+  line-height: 50px;
+  height: 100%;
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+.animation {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  transition: all .5s ease 0s;
+  border-radius: 8px;
+}
+a:nth-child(1){
+  width: 90px;
+}
+a:nth-child(2){
+  width: 110px;
+}
+a:nth-child(3){
+  width: 100px;
+}
+a:nth-child(4){
+  width: 160px;
+}
+
+}
+.start-home, a:nth-child(1):hover~.animation{
+  width: 4000px;
+  left: 20;
+  background-color: #b22222;
+}
+.start-contact, a:nth-child(2):hover~.animation{
+    width: 4000px;
+  left: 20;;
+  background-color: #e67e22;
+}
+.start-blog, a:nth-child(3):hover~.animation{
+  width: 4000px;
+  left: 20;
+  background-color: #556B2F;
+}
+ .start-portefolio, a:nth-child(4):hover~.animation{
+   width: 4000px;
+  left: 20;
+  background-color: #9b59b6;
+}
